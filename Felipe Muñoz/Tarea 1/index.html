@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Titulo de la hoja-->
+    <title>La Roja</title>
+
+    <!--Referencia la hoja de estilos creada-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--Referencia para crear slider y poner iconos de redes sociales-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+	
+</head>
+<body>
+    <!--Contenedor principal-->
+    <div id="principal" >
+        <!--Header: se le da el id de cabecera-->
+        <header>
+            <div id="encabezado">
+                <!--Imagen logo de la roja-->
+                <div id="imagen-encabezado">
+                    <a href="#" id="logo"> <img src="img/pics/logo.png" alt=""> </a>
+                </div>
+                
+                <nav>
+                    <!--Menu enlistado no ordenadamente con referencia a la sección-->
+                    <ul id="link-menu-superior">
+                        <li><a href="#"><i class="fa fa-bars"></i></a></li>
+                        <li><a href="#titulo-noticias">Noticias</a></li>
+                        <li><a href="#titulo-torneo">Torneos</a></li>
+                        <li><a href="#titulo-convocatoria">Última convocatoria</a></li>
+                        <li><a href="#titulo-historia">Historia</a></li>
+                        <li><a href="#titulo-instalaciones">Instalaciones</a></li>
+                        <li><a href="#titulo-premios">Premios</a></li>
+                        <li><a href="#titulo-multimedia">Multimedia</a></li>
+                    </ul>
+                </nav>
+               
+            </div>
+        </header>
+    
+        <!--Seccion de contenido de la pagina-->
+        <section>
+            <!--subportada con imagen de fondo-->
+            <article id="portada" style="background-image: url(img/pics/estadio.jpg);">
+                <div id="textos-portada">
+                    <!--Título principal-->
+                    <p><h1>La Selección Chilena</h1></p>
+                    <!--Título secundario-->
+                    <p><h2>La Roja de Todos</h2></p>
+                </div>
+            </article>
+
+            <!--Primer titulo: noticias-->
+            <div class="titulo-seccion" id="titulo-noticias">
+                <p><h1>Noticias</h1></p>
+            </div>
+
+            <!--Contenedor del slider de noticias con imagen y títular-->
+            <article id="noticias">
+                <div id="news">
+                    <div class="slider">
+                        <div><img src="img/slider/slider1.jpg" alt="" title="Chile cae ante Uruguay y pierde opción de llegar a Qatar 2022"></div>
+                        <div><img src="img/slider/slider2.jpg" alt="" title="La Roja Femenina jugará dos amistosos ante Argentina"></div>
+                        <div><img src="img/slider/slider3.jpg" alt="" title="Martín Lasarte dejará de ser el director técnico de la selección chilena"></div>
+                    </div>                 
+                </div>
+            </article>
+
+            <!--Segundo Título: torneo-->
+            <div class="titulo-seccion" id="titulo-torneo">
+                <p><h1>Torneo</h1></p>
+            </div>
+            
+            <!--Contenido del torneo-->
+            <article id="torneo">
+                <p><h3>Eliminatorias Qatar 2022</h3></p>
+                <!--Informacion sobre Qatar-->
+                <p> La Copa Mundial de Fútbol de la FIFA Qatar 2022 será la XXII edición de la Copa de Fútbol masculino organizada 
+                    por la FIFA. Esta edición se realizará desde el 21 de noviembre al 18 de diciembre de 2022 en Qatar, que consiguó los derechos de organización el 2 de 
+                    diciembre de 2010. Esta será la tercera vez que la Copa del Mundo de la FIFA se disputará en el continente asiático. Igualmente será el Mundial de mayor 
+                    tiempo de espera desde 1950 respecto a su edición anterior, ya que se desarrollará entre los meses de noviembre y diciembre de 2022, a diferencia de los 
+                    meses habituales de junio y julio. De forma paralela será la Copa Mundial de Fútbol más corta desde 1978, pues durará solamente 28 días a diferencia de los
+                    32 días habituales en los últimos campeonatos.
+                </p> 
+
+                <p><h3>A continuación se muestra la tabla de puntajes para las eliminatoria de Qatar para nuestro territorio:</h3></p>
+                
+                <!--Tabla de puntajes de cada pais remarcando a chile con rojo-->
+                <div id="cent">
+                    <table id="tabla-torneo">
+                        <caption align="top"> Tabla de Puntajes</caption> <!--Título de la tabla-->
+                        <tr>
+                            <th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>PTS</th>
+                        </tr>
+                        <tr>
+                            <td>1 Brasil</td><td>17</td><td>14</td><td>3</td><td>0</td><td>45</td>
+                        </tr>
+                        <tr>
+                            <td>2 Argentina</td><td>17</td><td>11</td><td>6</td><td>0</td><td>39</td>
+                        </tr>
+                        <tr>
+                        <td>3 Uruguay</td><td>18</td><td>8</td><td>4</td><td>6</td><td>28</td>
+                        </tr>
+                        <tr>
+                            <td>4 Ecuador</td><td>18</td><td>7</td><td>5</td><td>6</td><td>26</td>
+                        </tr>
+                        <tr>
+                            <td>5 Perú</td><td>18</td><td>7</td><td>3</td><td>8</td><td>24</td>
+                        </tr>
+                        <tr>
+                            <td>6 Colombia</td><td>18</td><td>5</td><td>8</td><td>5</td><td>23</td>
+                        </tr>
+                        <tr style="background-color: red;">
+                            <td>7 Chile</td><td>18</td><td>5</td><td>4</td><td>9</td><td>19</td>
+                        </tr>
+                        <tr>
+                            <td>8 Paraguay</td><td>18</td><td>3</td><td>7</td><td>8</td><td>16</td>
+                        </tr>
+                        <tr>
+                            <td>9 Bolivia</td><td>18</td><td>4</td><td>3</td><td>11</td><td>15</td>
+                        </tr>
+                        <tr>
+                            <td>10 Venezuela</td><td>18</td><td>3</td><td>1</td><td>14</td><td>10</td>
+                        </tr>
+                    </table>
+                </div>  
+            </article>      
+
+            <!--Tercer titulo: convocatoria-->
+            <div class="titulo-seccion" id="titulo-convocatoria">
+                <p><h1>Última Convocatoria</h1></p>
+            </div>
+            
+            <!--Sección convocatoria-->
+            <article id="convocatoria">
+                
+                <p><h2>Convocatoria de la selección de Chile</h2></p>
+                <p>Estos son los convocados de la selección Chilena</p>
+
+                <!--Contenedor de la seccion de convocatoria-->
+                    <div id="contenido-convocatoria">
+                    <!--Lista de seleccionados en un contenedor div-->
+                    <div id="seleccionados" class="jugadores">
+                        <ul id="listado-jugadores" >
+                            <li>Arqueros:</li>
+                                <ul>
+                                    <li>Claudio Bravo - Betis (España)</li>
+                                    <li>Brayan Cortés - Colo Colo</li>
+                                    <li>Sebastián Pérez - Universidad Católica</li>
+                                    <li>Zacarías López - Deportes La Serena</li>
+                                </ul>
+                            <li>Defensas:</li>
+                                <ul>
+                                    <li>Paulo Díaz - River Plate (Argentina)</li>
+                                    <li>Mauricio Isla - Flamengo (Brasil)</li>
+                                    <li>Benjamín Kuscevic - Palmeiras (Brasil)</li>
+                                    <li>Guillermo Maripán - AS Mónaco (Francia)</li>
+                                    <li>Gary Medel - Bologna (Italia)</li>
+                                    <li>José Pedro Fuenzalida - Universidad Católica</li>
+                                    <li>Enzo Roco - Elche (España)</li>
+                                    <li>Gabriel Suazo - Colo Colo</li>
+                                    <li>Sebastián Vegas - Monterrey (México)</li>
+                                </ul>
+                            <li>Mediocampistas:</li>
+                                <ul>
+                                    <li>Charles Aránguiz - Bayer Leverkusen (Alemania)</li>
+                                    <li>Claudio Baeza - Toluca (México)</li>
+                                    <li>Marcelino Núñez - Universidad Católica</li>
+                                    <li>Pablo Parra - Puebla (México)</li>
+                                    <li>Erick Pulgar - Galatasaray (Turquía)</li>
+                                    <li>Diego Valdés - Club América (México)</li>
+                                    <li>Arturo Vidal - Inter de Milán (Italia)</li>
+                                </ul>
+                            <li>Delanteros:</li>
+                                <ul>
+                                    <li>Ben Brereton Díaz - Blackburn Rovers (Inglaterra)</li>
+                                    <li>Víctor Dávila - León (México)</li>
+                                    <li>Luis Jiménez - Palestino</li>
+                                    <li>Jean Meneses - León (México)</li>
+                                    <li>Joaquín Montecinos - Tijuana (México)</li>
+                                    <li>Alexis Sánchez - Inter de Milán (Italia)</li>
+                                    <li>Eduardo Vargas - Atlético Mineiro (Brasil)</li>
+                                </ul>
+                        </ul>
+                    </div>
+    
+                    <!--Imagen de nómina-->
+                    <div id="nomina" class="jugadores">
+                        <img src="img/pics/convocatoria.jpg">
+                    </div>                    
+                </div>
+
+
+            </article>
+
+            <!--Cuarto titulo: historia-->
+            <div class="titulo-seccion" id="titulo-historia">
+                <p><h1>Historia</h1></p>
+            </div>
+
+            <!--secion de historia-->
+            <article id="historia">
+                <!--Imagen antigua-->
+                <div class="historia" id="img-historia">
+                    <img src="img/pics/historia.jpg" alt="">
+                </div>
+                <!--parrafo de historia-->
+                <div class="historia" id="texto-historia">
+                    <h1>La Roja</h1>
+                    <p>La selección de fútbol de Chile, también conocida como la Roja, término afianzado 
+                        en la década de 1980, es la tercera selección nacional más antigua de América y una de 
+                        las veinte en el mundo. Disputó su primer partido internacional el 27 de mayo de 1910 
+                        ante Argentina. Su sede local es el Estadio Nacional Julio Martínez Prádanos, ubicado 
+                        en la comuna de Ñuñoa en la ciudad de Santiago. La Roja entrena y se concentra en la misma 
+                        ciudad, en el Complejo Deportivo Juan Pinto Durán, en la comuna de Macul.</p>
+                </div>
+            </article>
+
+            <!--Quinto titulo: instalaciones-->
+            <div class="titulo-seccion" id="titulo-instalaciones">
+                <p><h1>Instalaciones</h1></p>
+            </div>
+
+            <!--Seccion de instalaciones-->
+            <article id="instalaciones">
+                <div id="columnas-instalaciones">
+                    <div id="instalaciones-superior">
+                        <!--Seccion superior con imagenes y texto-->
+                        <div class="tercio-superior">
+                            <div id="foto_nacional">
+                                <img src="img/pics/nacional.jpg">
+                            </div>
+                            <div class="texto-estadio">
+                                    <p><h3>Estadio Nacional de Chile Julio Martinez Prádanos</h3></p>
+                                   <p>Conocido como «el Coloso de Ñuñoa», es la casa de la selección chilena 
+                                    en sus partidos como local. Su primer partido en ese recinto ocurrió el 
+                                    26 de febrero de 1939. Desde 1954, ha sido la principal sede de la Roja para los partidos de 
+                                    clasificatorias a la Copa Mundial de Fútbol.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="tercio-superior">
+                            <div id="foto_monumental">
+                                <img src="img/pics/monumental.jpg">
+                            </div>
+                            <div class="texto-estadio">
+                                    <p><h3>Estadio Monumental David Arellano</h3></p>
+                                    <p>Desde fines de los años 1990, el recinto de Colo-Colo
+                                     ha sido escenario ocasional de partidos de la Roja. Su primer partido allí fue el 29 de abril de 1997, 
+                                     cuando venció a Venezuela por 6-0 en un partido válido por las clasificatorias 
+                                     para Francia 1998.</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="tercio-superior">
+                            <div id="foto_sancarlos">
+                                <img src="img/pics/sancarlos.JPG" height="300" width="300">
+                            </div>
+                            <div class="texto-estadio">
+                                <h3>Estadio San Carlos de Apoquindo</h3>
+                                <p>A mediados de 2021 y tras los arreglos del Estadio Nacional para los Juegos 
+                                    Panamericanos de 2023, el estadio de la Universidad Católica fue escogido por la ANFP para recibir partidos de la Clasificatorias. 
+                                    Recibió a las selecciones de Bolivia, Paraguay, Venezuela y Ecuador.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Seccion inferior con imagenes y texto-->
+                    <div id="instalaciones-inferior">
+                        <div class="tercio-inferior">
+                            <div id="fotos_zorro">
+                                <img src="img/pics/zorros.jpg" height="300" width="300">
+                            </div>
+                            <div class="texto-estadio">
+                                <h3>Estadio Zorros del Desierto</h3>
+                                <p> El recinto de Calama fue el escogido para disputar los partidos por primera vez partidos para las Clasificatorias para el Mundial de 2022, 
+                                    buscando aprovechar la ventaja deportiva por las condiciones climáticas y geográficas.</p>
+                            </div>
+                        </div>
+                        <div class="tercio-inferior">
+                            <div id="foto_juanpinto">
+                                <img src="img/pics/juanpinto.jpg" height="300" width="300">
+                            </div>
+                            <div class="texto-estadio">
+                                <h3>Complejo Deportivo Juan Pinto Durán</h3>
+                                <p>El Complejo Deportivo Juan Pinto Durán es el centro de entrenamiento y concentración de la selección chilena. 
+                                Fue pedido por el entrenador Fernando Riera e inaugurado en 1961 en la comuna de Macul, en Santiago.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!--sexto titulo: premios-->
+            <div class="titulo-seccion" id="titulo-premios">
+                <p><h1>Premios</h1></p>
+            </div>
+            <!--Seccion de premios-->
+            <article id="premios">
+                <p><h2>Premios</h2></p>
+                <p>¡Recuerda los grandes triunfos de la Roja a lo largo de la historia!</p>
+                <!--Tabla de premios-->
+                <table border="1">
+                    <caption align="top"> Premios</caption>
+                    <tr>
+                        <th>Torneo</th><th>Lugar</th><th>Años</th>
+                    </tr>
+                    <tr>
+                        <td>Copa Mundial de Fútbol</td><td>Tercer Lugar</td><td>1962</td>
+                    </tr>
+                    <tr>
+                        <td>Copa FIFA Confederaciones</td><td>Subcampeón</td><td>2017</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Copa América</td><td>Campeón</td><td>2015, 2016</td>
+                    </tr>
+                    <tr>
+                        <td>Subcampeón</td><td>1955, 1956, 1979, 1987</td>
+                    </tr>
+                    <tr>
+                        <td>Tercer Lugar</td><td>1926, 1941, 1945, 1967, 1991</td>
+                    </tr>
+                    <tr>
+                        <td>Panamericano de Fútbol</td><td>Subcampeón</td><td>1952</td>
+                    </tr>
+                    <tr>
+                        <td>Copa del Pacífico</td><td>Campeón</td><td>1965, 1968, 1983, 1988, 2006, 2012</td>
+                    </tr>
+                    <tr>
+                        <td>Copa Canadá</td><td>Campeón</td><td>1995</td>
+                    </tr>
+                    <td>China Cup</td><td>Campeón</td><td>2017</td>
+                </table>
+            </article>
+
+            <!--septimo titulo: multimedia-->
+            <div class="titulo-seccion" id="titulo-multimedia">
+                <p><h1>Multimedia</h1></p>
+            </div>
+
+            <!--seccion multimedia-->
+            <article id="multimedia">
+                <!--Imagenes de los jugadores en e iconos de redes sociales referenciadas-->
+                <div id="jugadores">
+                    <p><h1>Sigue a los Jugadores en las Redes Sociales</h1></p>
+                    <div class="un-cuarto">
+                        <img src="img/pics/bravo.png" alt="">
+                        <p>Claudio Bravo</p>
+                        <div class="rrss">
+                         <a href="https://m.facebook.com/Claudio-Bravo-546199025481653/"><i class="fa fa-facebook"></i></a>
+                         <a href="https://twitter.com/C1audioBravo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/claudiobravo1/?hl=es"><i class="fa fa-instagram"></i></a>                            
+                        </div>
+                    </div>
+                    <div class="un-cuarto">
+                        <img src="img/pics/sanchez.png" alt="">
+                        <p>Alexis Sánchez</p>
+                        <div class="rrss">
+                         <a href="https://es-la.facebook.com/alexissanchez7"><i class="fa fa-facebook"></i></a>
+                         <a href="https://twitter.com/Alexis_Sanchez"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/alexis_officia1/?hl=es"><i class="fa fa-instagram"></i></a>                            
+                        </div>
+                    </div>
+                    <div class="un-cuarto">
+                        <img src="img/pics/vidal.png" alt="">
+                        <p>Arturo Vidal</p>
+                        <div class="rrss">
+                         <a href="https://www.facebook.com/arturovidal8"><i class="fa fa-facebook"></i></a>
+                         <a href="https://twitter.com/kingarturo23"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/?next=/kingarturo23oficial/"><i class="fa fa-instagram"></i></a>                            
+                        </div>
+                    </div>
+                    <div class="un-cuarto">
+                        <img src="img/pics/vargas.png" alt="">
+                        <p>Eduardo Vargas</p>
+                        <div class="rrss">
+                         <a href="https://es-la.facebook.com/Eduardo.Vargas.Official/"><i class="fa fa-facebook"></i></a>
+                         <a href="https://twitter.com/eduvargas_17?lang=es"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/?next=/eduardovargasrj1/"><i class="fa fa-instagram"></i></a>                            
+                        </div>
+                    </div>
+                </div>
+
+                <!--Videos de la roja-->
+                <div id="videos">
+                    <p><h1>¡Recuerda los momentos épicos de la Selección Chilena!</h1></p>
+                    <video class="video" src="img/videos/copa2015.mp4" controls></video>
+                    <video class="video" src="img/videos/copa2016.mp4" controls></video>
+                </div>
+            </article>
+            <!--seccion de comentarios-->
+            <article id="comentarios">
+                <h2>Envíanos tus comentarios</h2>
+                <div id="contenedor-comentarios">
+                    <form action="mailto:f.muozcastillo@uandresbello.edu" method="post" enctype="text/plain">
+                        <p>Ingrese su nombre:</p>
+                        <input class="control" type="text" name="nombre" placeholder="Ingrese su nombre">
+                        <p>Ingrese su apellido:</p>
+                        <input class="control" type="text" name="nombre" placeholder="Ingrese su apellido">
+                        <p>Ingrese su correo:</p>
+                        <input class="control" type="text" name="correo" placeholder="Ingrese su correo electronico">
+                        <p>Escriba su comentario</p>
+                        <textarea name="comentario" id="coment" cols="100" rows="20" placeholder="Ingrese su comentario"></textarea>
+                        <p><input class="boton" type="submit" value="Enviar datos">
+                        <input class="boton" type="reset" value="Borrar Datos"></p>
+                    </form>
+                </div>
+            </article>
+    </section>
+    </div>
+
+    <!--Pie de la pagina-->
+    <footer>
+        <!--redes sociales y contacto de la roja-->
+        <div id="rrss-footer">
+            <ul>
+                <li>Síguenos:</li>
+                <a href="mailto:f.muozcastillo@uandresbello.edu"><li><i class="fa fa-envelope-o"></i></li></a>
+                <a href="https://es-la.facebook.com/SeleccionChilena/"><li><i class="fa fa-facebook"></i></li></a>
+                <a href="https://twitter.com/LaRoja?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><li><i class="fa fa-twitter"></i></li></a>
+                <a href="https://www.instagram.com/laroja/?hl=es-la"><li><i class="fa fa-instagram"></i></li></a>
+                <a href="https://www.youtube.com/channel/UCcxSAppTL9uUkV6-rEuT5Og"><li><i class="fa fa-youtube"></i></li></a>                
+            </ul>
+        </div>
+        <!--icono para volver al comienzo de la pagina-->
+        <div id="volver-inicio">
+            <a href="#"> <i class="fa fa-arrow-up"></i> Inicio</a>
+        </div>
+
+    </footer>
+
+
+
+
+    <!----------------------script-------------------------->
+    <script>
+        $('.slider').bxSlider({
+            autoControls: false,
+            auto: true,
+            pager: true,
+            slideWidth: 1000,
+            mode: 'fade',
+            captions: true,
+            speed: 1000,
+            responsive: true,
+        });
+    </script>
+    <!------------------------------------------------------------->
+</body>
+
+</html>

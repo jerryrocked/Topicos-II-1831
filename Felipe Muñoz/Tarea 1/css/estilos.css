@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ecf0f1;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+/*caracteristicas menu superior*/
+header {
+    width: 100%;
+    height: 150px;
+    top: 0;
+    left: 0;
+    font-size: 200%;
+}
+
+#encabezado{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #FF2727;
+    text-shadow: -2px -2px 1px #000;
+}
+
+#imagen-encabezado{
+    height: 150px;
+    width: 20%;
+}
+
+#logo img{
+    height: 150px;
+    width: 150px; 
+}
+
+#news{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 200%;
+}
+
+nav{
+    height: 100%;
+    width:  75%;
+    list-style: none;
+    margin-top: 40px;
+}
+
+#link-menu-superior{
+    width:  100%;
+    list-style: none;
+    
+}
+
+ul li{
+    font-size: 90%;
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    color: #EDE7E7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #9B9B9B;
+  }
+
+.fa-bars{
+    color: #EDE7E7;
+}
+
+#portada{
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+#textos-portada{
+    padding-top: 30px;
+    color: #ecf0f1;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+ul li img{
+    height: 400px;
+    width: 550px;
+}
+
+p, h2, h3{
+    margin: 15px;
+}
+/*caracteristicas fondo slider*/
+#noticias{
+    background-color: #FF2727;
+    margin: 20px auto;
+}
+
+/*catacteristicas titulo*/
+.titulo-seccion{
+    margin-top: 30px;
+    color: #FF2727;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+/*caracteristicas seccion torneo*/
+#torneo{
+    text-align: center;
+    color: #ecf0f1;
+    text-shadow: -2px -2px 1px #000;
+    background-color: #282E8C;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+#cent{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;   
+}
+
+#tabla-torneo{
+    width: 60%;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+ th, td {
+    width: 15%;
+    border: 1px solid #000;
+ }
+
+/*Convocatoria*/
+
+#convocatoria{
+    margin-top: 20px auto;
+}
+
+#contenido-convocatoria{
+    display: flex;
+    justify-content: space-around;
+}
+
+.jugadores{
+    margin: 0% auto;
+    display: inline-block;
+    justify-content:space-around;
+    width: 45%;
+}
+
+#listado-jugadores{
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/*Seccion historia*/
+
+#historia{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #282E8C;
+    color: #ecf0f1;
+    text-shadow: -2px -2px 1px #000;
+}
+
+.historia{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 120%;
+    margin: 35px auto;
+}
+
+#texto-historia{
+    padding-top: 30px;
+    margin-top: 70px;
+}
+
+#texto-historia p{
+    color: #ecf0f1;
+    text-shadow: -2px -2px 1px #000;
+}
+
+/*Instalaciones*/
+
+#instalaciones{
+    background-color: #C30B0B;
+    display: flex;
+    margin: 20px auto;
+}
+
+#instalaciones-superior{
+    display: flex;
+}
+
+.tercio-superior{
+    padding-top: 40px;
+    width: 33.3%;
+    text-align: center;
+    color: #EDE7E7;
+    justify-content: center;
+}
+
+.tercio-superior img{
+    height: 300px;
+    width: 300px;
+}
+
+#instalaciones-inferior{
+    width: 100%;
+}
+
+.tercio-inferior{
+    padding-top: 10px;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    color: #EDE7E7;
+    float: left;
+}
+
+.tercio-inferior img{
+    height: 300px;
+    width: 300px;
+}
+
+/*Premios*/
+#premios{
+    background-color: #282E8C;
+    color: #ecf0f1;
+    text-shadow: -2px -2px 1px #000;
+    padding: 20px;
+}
+
+#premios table{
+    text-align: center;
+}
+
+/*Jugadores*/
+
+#jugadores{
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+}
+
+#jugadores a{
+    color: #000;
+}
+#jugadores a:hover{
+    color: #BCBCBD;
+}
+
+#jugadores img{
+    width: 70%;
+    height: 70%;
+}
+
+.un-cuarto{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+
+#videos{
+    margin-top: 40%;
+    font-size: 200%;
+    text-align: center;
+    padding: 20px;
+}
+
+.video{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 40%;
+}
+
+/*comentarios*/
+#comentarios{
+    
+    height: 800px;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+.control{
+    width: 35%;
+    height: 10%;
+}
+
+.boton{
+    width: 30%;
+    background: #FF2727;
+    border-bottom: #000;
+    color: #ecf0f1;
+}
+
+/*footer*/
+    
+footer{
+    background-color: #282E8C;
+    font-size: 400%;
+}
+
+#rrss-footer{
+    color: #EDE7E7;
+    list-style: none;
+    display: inline-block;
+}
+
+#volver-inicio{
+    
+    color: #EDE7E7;
+    float: left;
+    margin-right: 5%;
+}
+
+/*Diseño Responsive*/
+
+@media only screen and (max-width: 1000px) {
+
+    #encabezado{
+        font-size: 60%;
+        background-color: #C30B0B;
+    }
+    
+    .jugadores img{
+        width: 100%;  
+    }
+
+    #contenido-convocatoria{
+        flex-direction: column;
+    }
+
+    #historia{
+        justify-content: center;
+        flex-direction: column;
+        font-size: 90%;
+        width: 100%;
+    }
+
+    .historia img{
+        margin: 10px auto;
+    }
+
+    #texto-historia{
+        width: 100%;
+        margin: 10px;
+        padding: 0;
+    }
+
+    #tabla-torneo{
+        margin-right: 10%;
+    }
+
+    #instalaciones img{
+        width: 200px;
+        height: 200px;
+    }
+
+    #instalaciones-superior{
+        display: block;
+    }
+
+    #columnas-instalaciones{
+        width: 100%;
+    }
+
+    .tercio-superior{
+        width: 100%;
+    }
+
+    .tercio-inferior{
+        width: 100%;
+    }
+
+    footer{
+        height: 300px;
+    }
+
+    #videos{
+        margin-top: 400px;
+        
+    }
+
+    .video{
+        margin-top: 5%;
+    }
+
+    #multimedia{
+        height: 800px;
+    }
+
+    footer{
+        height: 150px;
+    }
+
+    #rrss-footer{
+        font-size: 50px;
+        list-style: none;
+        display: inline-block;
+    }
+    
+    #volver-inicio{
+        font-size: 50px;
+        margin-right: 5%;
+    }
+
+    #comentarios{
+        margin-left: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    #encabezado{
+        font-size: 50%;
+        background-color: #282E8C;
+    }
+
+    #img-historia{
+        width: auto;
+        margin: 5px auto;
+    }    
+
+    #columnas-instalaciones{
+        width: 100%;
+    }
+
+    .tercio-superior{
+        width: 100%;
+    }
+
+    .tercio-inferior{
+        width: 100%;
+    }
+
+    .tercio-superior{
+        padding-top: 40px;
+        height: 30%;
+        width: 100%;
+        text-align: center;
+        color: #EDE7E7;
+        float: left;
+    }
+
+    .tercio-inferior{
+        padding-top: 10px;
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        color: #EDE7E7;
+        float: left;
+    }
+
+    footer{
+        height: 200px;
+    }
+
+    
+}
