@@ -1,0 +1,441 @@
+/*Estilos pagina general margenes, etc*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipo de letra del cuerpo de la pagina*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Imagen del fondo del header*/
+.header{
+    background-image: url('../img/fondo.jpg');
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 30px;
+}
+
+/*Caracteristicas menu superior*/
+.menu{
+    background-color: rgba(5, 20, 62, 0.5);
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 20px;
+    align-items: center;
+}
+
+/* Caracteristicas enlaces menu*/
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu a:hover{
+    color: rgb(86, 85, 84);
+}
+
+/*Caracteristicas del logo*/
+.logo{
+    text-align: center;
+    flex: 1 1 30%;
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+    border: solid 1px #000;
+}
+
+/*Caracteristicas del menu de navegacion*/
+.nav{
+    flex: 5 1 70% ;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Texto sobre la imagen principal*/
+.text-header{
+    margin: auto 50px;
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+/*titulo principal*/
+#titular{
+    font-size: 70px;
+}
+/*titulo*/
+.cabeza{
+    margin-left: 10px;
+    font-size: 35px;
+    color: darkslategrey;
+}
+/*Estilos de la seccion contaminacion*/
+#contaminacion{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/*Estilos de las columnas de tipos de contaminacion*/
+.columna{
+    flex: 1 1 30%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+/*Caracteristicas de los tipos de contaminacion*/
+.columna img{
+    width: 400px;
+    height: 300px;
+}
+
+.columna p{
+    margin: 1px 10px;
+}
+
+/*Caracteristicas generales de las secciones de las tablas*/
+.tab{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 70px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#tab1{
+    background-color: #710202;
+}
+
+#tab2{
+    background-color: #001154;
+}
+/*Caracteristicas del texto acompañante*/
+.info-tabla{
+    color: #fff;
+    flex: 1 1 45%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/*Estilos de las tablas*/
+.numeros{
+    color: #fff;
+    flex: 1 1 45%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.numeros table{
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.numeros th, td{
+    width: 10px;
+    border: #fff solid 1px;
+    border-collapse: collapse;
+}
+
+.cp{
+    border: #fff solid 1px;
+    border-collapse: collapse;
+}
+
+/* Tamaño de las banderas de la tabla*/
+.tab img{
+    width: 50px;
+    height: auto;
+}
+
+/*Estilos de la sección video*/
+#video-contaminacion{
+    margin: 100px auto;
+}
+
+.videos-youtube{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+/*Tamaño del video*/
+#video{
+    width: 950px;
+    height: 600px; 
+}
+
+/*Estilos de la seccion contaminacion*/
+#proteger{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/*Estilos de las columnas de cuidar medioambiente*/
+.cuidar{
+    flex: 1 1 45%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+/*video fifa*/
+#fifa{
+    background-color: #E990FB;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.info-fifa{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.info-fifa img{
+    width: 500px;
+    height: auto;
+}
+
+/* Estilos del footer*/
+.redes{
+    margin-top: 100px;
+    padding: 20px 0;
+    background-color: darkgrey;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.redes a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 29px;
+}
+
+.redes a:hover{
+    color: rgb(55, 55, 55);
+}
+
+.pie{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    background-color: rgb(26, 26, 26);
+}
+
+/* Estilos del footer pagina*/
+.copyrigth{
+    font-size: 20px;
+}
+
+.copyrigth a{
+    font-size: 70px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos del footer diseñador*/
+.design{
+    font-size: 20px;
+    background-color: #000;
+}
+
+/* Estilo responsive */
+@media all and (max-width: 1300px) {
+    /*cambio del tamaño del alto del header*/
+    .header{
+        height: 800px;
+    }
+    /*  Cambio disposicion menu*/
+    .menu{
+        flex-direction: column;
+    }
+    /* cambio tamaño imagen del logo*/
+    .logo img{
+        width: 300px;
+        height: auto;
+    }
+    /* cambio de caracteristicas del menu de navegacion*/
+    .nav{
+        font-size: 20px;
+        width: 80%;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .text-header{
+        font-size: 10px;
+    }
+    /*titulo principal*/
+    #titular{
+        font-size: 30px;
+    }
+
+    /*Cambio disposicion de columnas de tipos de contaminacion*/
+    #contaminacion{
+        flex-direction: column;
+    }
+    .logo img{
+        margin: 50px auto;
+    }
+
+    .columna p{
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* Cambio disposicion en las secciones que contienen las tablas*/
+    .tab{
+        flex-flow: column wrap;
+    }
+
+    .info-tabla{
+        margin: 50px 20px;
+    }
+    .numeros table{
+        font-size: 12px;
+        width: 100%;
+    }
+
+    /* cambio de orden tabla contaminacion mares */
+    #tab2 .info-tabla{
+        order: 1;
+    }
+
+    #tab2 .numeros{
+        order: 2;
+    }
+
+    /* cambio tamaño del video */
+    #video{
+        width: 500px;
+        height: 300px; 
+    }
+
+    .videos-youtube{
+        flex-direction: column;
+    }
+
+    /* cambio disposicion de la seccion fifa */
+    #fifa{
+        flex-direction: column;
+    }
+
+    .info-fifa{
+        font-size: 20px;
+    }
+
+    .info-fifa img{
+        width: 400px;
+        height: auto;
+    }
+    /* cambio disposicion redes sociales */
+    .redes{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+
+@media all and (max-width: 900px) {
+
+    /* cambio estilo menu navegacion a los 900px */
+    .nav{
+        flex-direction: column;
+        width: 60%;
+        border: #fff solid 1px;
+    }
+    .nav a{
+        border: #fff solid 1px;
+    }
+}
+
+
+@media all and (max-width: 660px) {
+    /* cambio menu navegacion a 660px */
+    .nav{
+        font-size: 15px;
+        width: 70%;
+        flex-direction: column;
+        text-align: center;
+        border: #fff solid 1px;
+    }
+    .nav a{
+        border: #fff solid 1px;
+    }
+}
+@media all and (max-width: 550px) {
+    /* cambio tamaño del video */
+    #video{
+        width: 350px;
+        height: 200px; 
+    }
+    /* cambio del nombre de la pagina a 550px */
+    .copyrigth a{
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 440px) {
+     /* cambio tamaño del header */
+    .header{
+        height: 1000px;
+    }
+     /* cambio tamaño de las imagenes */
+    .columna img{
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media all and (max-width: 360px) {
+     /* cambio tamaño de titulos */
+    .cabeza{
+        font-size: 28px;
+    }
+     /* cambio tamaño del video */
+    #video{
+        width: 300px;
+        height: 200px; 
+    }
+}
