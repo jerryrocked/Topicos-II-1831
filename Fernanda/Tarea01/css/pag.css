@@ -1,0 +1,96 @@
+/*Estilos generales*/
+body {
+  background-color: #98c1ee;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.cuerpo {
+  background-color: #fbf2f2bb;
+}
+
+
+/*///////////////////////////////////
+ESTILOS DEL HEADER
+////////////////////////////////////
+*/
+.navbar-custom {
+  background-color: #db1d1d;
+}
+/* cCambiar color de texto en general */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgba(255,255,255);
+}
+/* Cambiar color no activo de los links en nav*/
+.navbar-custom .navbar-nav .nav-link {
+  color: rgba(255,255,255,.5);
+}
+/* cambiar color de los links en el menu nav*/
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff;
+}
+/*En boostrap 4, los iconos de fontaweson son tratados como imagenes, 
+para poder cambiar el color, hay que aplicar la siguiente linea de codigo*/
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*Cambiar color del borde del boton de menu*/
+.custom-toggler .navbar-toggler {
+  background-color:#ecf0f1;
+  border: 2px solid;
+  border-color: rgb(255,255,255) !important;
+} 
+
+/*//////////////////////////////////////////
+ESTILOS CARRUSLEL
+///////////////////////////////////////////
+*/
+.carousel-custom{
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+}
+.navbar .navbar-toggler .navbar-toggler-icon .icon-bar{
+  background-color: black !important;
+}
+
+/*//////////////////////////////////////////
+ESTILOS COLUMNAS
+///////////////////////////////////////////
+*/
+.imagenhistoria{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+}
+#Historia{
+  padding-bottom: 100px;
+}
+
+#Jugadoras .card-deck .card img{
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+
+#Jugadoras .card-deck .card{
+  width: 230px;
+}
+
+/*//////////////////////////////////////////
+FOOTER
+///////////////////////////////////////////
+*/
+
+
