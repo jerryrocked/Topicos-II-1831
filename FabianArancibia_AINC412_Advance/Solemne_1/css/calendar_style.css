@@ -1,0 +1,53 @@
+/* Estilos para dispositivo mobile */
+@import url('./calendar_mobile.css');
+/* Estilos para pagina web */
+@import url('./calendar_web.css');
+
+/* Estilos generales */
+body{
+    font-family: Titillium Web, sans-serif;
+    background-color: white;
+    margin: 0%;
+}
+.header-page {
+    position: fixed;
+    width: 100%;
+    background: var(--top-navigation--background,#074365);
+}
+.content-main, .main-body {
+    background-color: white;
+}
+.group-a{
+    background-color: purple;
+}
+.group-b{
+    background-color: lightblue;
+}
+.group-c{
+    background-color: red;
+}
+.group-d{
+    background-color: yellow;
+}
+.group-e{
+    background-color: brown;
+}
+.group-f{
+    background-color: green;
+}
+.group-g{
+    background-color: blue;
+}
+.group-h{
+    background-color: pink;
+}
+.match-final{
+    background-color: orange;
+}
+.final {
+    background-color: grey;
+}
+footer {
+    background: var(--top-navigation--background,#074365);
+    color: white;
+}

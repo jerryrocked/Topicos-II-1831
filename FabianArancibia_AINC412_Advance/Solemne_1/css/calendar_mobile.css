@@ -1,0 +1,63 @@
+/* Estos estilos se muestran hasta un maximo de 1130px */
+@media only screen and (max-width: 1130px){
+    /* Estilos sección header */
+    .header-page{
+        display: flex;
+        align-items: center;
+    }
+    .header-page .img1 {
+        width: 25%;
+    }
+    .header-page .img2   {
+        width: 20%;
+    }
+    /* Estilos de los grupos */
+    .section-group {
+        padding-top: 150px;
+        text-align: center;
+    }
+    .rectangle{
+        border: 2px solid;
+        padding: 10px 50px;
+        border-radius: 60px;
+        margin-right: 15px;
+    }
+    .section-group article {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Estilos del calendario */
+    .calendar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .calendar article {
+        margin-top: 15px;
+    }
+    .day{
+        border-radius: 15px;
+        border: 1px solid;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+    .match, .match-final, .final{
+        border-radius: 40px;
+        border: 3px solid;
+    }
+    /* Estilos sección footer */
+    footer {
+        margin-top: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    footer p {
+        margin: 0px;
+    }
+}

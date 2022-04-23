@@ -1,0 +1,110 @@
+/* Estos estilos se muestran hasta un minimo de 1131px */
+@media only screen and (min-width: 1131px) {
+    .header-page {
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-page .img1 {
+        width: 300px;
+    }
+    .header-page .img2   {
+        width: 200px;
+    }
+    /* Estilos de los grupos */
+    .section-group{
+        text-align: center;
+        padding-top: 170px;
+        margin-bottom: 15px;
+    }
+    .section-group article {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .rectangle{
+        border: 2px solid;
+        padding: 10px 50px;
+        border-radius: 60px;
+        margin-right: 15px;
+    }
+    /* Estilos del calendario */
+    .calendar{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+    .calendar section {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .calendar article {
+        text-align: center;
+    }
+
+    .game{
+        padding: 2px;
+    }
+
+    .match{
+        font-size: small;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 5px;
+        border: 1px solid;
+        text-align: center;
+        height: 20px;
+        margin-bottom: 3px;
+        padding: 4px;
+    }
+    .match h2 {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .day{
+        border-radius: 15px;
+        border: 1px solid;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+    .match-final{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        border: 1px solid;
+        border-radius: 38px;
+        margin-bottom: 4px;
+    }
+
+    .match-final p {
+        margin: 0px;
+        border-bottom: solid;
+        margin-bottom: 10px;
+    }
+    .match-final h1 {
+        margin: 0px;
+    }
+    .final{
+        border: 1px solid;
+        border-radius: 38px;
+    }
+    /* Estilos sección footer */
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    footer p {
+        margin: 0px;
+    }
+}

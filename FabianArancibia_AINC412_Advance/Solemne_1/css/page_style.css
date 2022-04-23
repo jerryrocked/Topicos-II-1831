@@ -1,0 +1,23 @@
+/* Estilos para dispositivo mobile */
+@import url('./page_mobile.css');
+/* Estilos para pagina web */
+@import url('./page_web.css');
+
+/* Estilos generales */
+body{
+    font-family: Titillium Web, sans-serif;
+    background-color: white;
+    margin: 0%;
+}
+.header-page {
+    position: fixed;
+    width: 100%;
+    background: var(--top-navigation--background,#074365);
+}
+.content-main, .main-body {
+    background-color: white;
+}
+footer {
+    background: var(--top-navigation--background,#074365);
+    color: white;
+}

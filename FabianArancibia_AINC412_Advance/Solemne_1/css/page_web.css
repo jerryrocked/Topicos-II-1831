@@ -1,0 +1,101 @@
+/* Estos estilos se muestran hasta un minimo de 1131px */
+@media only screen and (min-width: 1131px) {
+
+    /* Estilos sección header */
+    .header-page{
+        z-index: 1;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .header-page img {
+        width: 300px;
+        padding-left: 40%;
+    }
+    .header-page a {
+        padding-right: 1%;
+    }
+    .header-page a img {
+        width: 170px;
+        padding-left: 0%;
+    }
+
+    /* Estilos sección videos */
+    .content-main {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 170px;
+        margin-bottom: 20px;
+
+    }
+    .organizations {
+        width: 22%;
+        padding-left: 21px;
+        padding-right: 6px;
+    }
+    .talk {
+        width: 24%;
+        padding-left: 6px;
+        padding-right: 21px;
+    }
+
+    /* Estilos sección tablas */
+    .main-body {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body-table img{
+        width: 70px;
+    }
+    .column-1{
+        position: absolute;
+        float: left;
+        margin-left: 70px;
+    }
+    .column-2{
+        position: inherit;
+        float: right;
+        margin-right: 70px;
+    }
+    .column-1, .column-2 {        
+        width: 40%;
+        box-shadow: 0 1px 8px rgb(0 0 0 / 60%);
+        padding: 10px;
+        border-radius: 30px;
+    }
+    .table1, .table2 {
+        overflow: scroll;
+        height: 450px;
+    }
+    .table1 .header-table, .table2 .header-table {
+        font-size: 20px;
+    }
+    .column-1 h1, .column-2 h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .table1 tbody, .table2 tbody {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    /* Estilos sección footer */
+    footer {
+        margin-top: 650px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    footer p {
+        margin: 0px;
+    }
+}
